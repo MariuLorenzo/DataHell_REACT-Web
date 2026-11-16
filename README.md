@@ -1,6 +1,6 @@
-# Trabajo Práctico Grupal 2 - Equipo DataHell
+# Trabajo Práctico Grupal - Equipo DataHell
 
-Bienvenido/a al repositorio oficial del **Trabajo Práctico Grupal 2** para la materia "Desarrollo Web Frontend" del IFTS Nº 29.
+Bienvenido/a al proyecto del **Trabajo Práctico Grupal 2** para la materia "Desarrollo Web Frontend" del IFTS Nº 29.
 
 ---
 
@@ -21,7 +21,7 @@ Bienvenido/a al repositorio oficial del **Trabajo Práctico Grupal 2** para la m
 
 ## 1. Descripción del Proyecto
 
-Este proyecto es la evolución natural de nuestro TP1. Hemos migrado nuestro sitio web estático hacia una **Single Page Application (SPA)** desarrollada con **React** y empaquetada con **Vite**.
+Este proyecto es la evolución natural de la primer versión de la página web. Hemos migrado nuestro sitio web estático hacia una **Single Page Application (SPA)** desarrollada con **React** y empaquetada con **Vite**.
 
 El objetivo principal de esta iteración ha sido modularizar la interfaz en componentes reutilizables mediante *props*, abstraer la información en estructuras de datos JSON locales y gestionar estados complejos con Hooks (`useState`, `useEffect`, `useRef`). Hemos implementado una arquitectura de navegación dual (Header fijo + Sidebar retráctil accesible), consumo de datos locales parametrizados, un catálogo tecnológico con buscador reactivo y acordeón de información adicional, una sección interactiva para el árbol de renderizado y la integración con la API pública de GitHub con manejo de estados de carga, error y reintento.
 
@@ -43,8 +43,7 @@ El objetivo principal de esta iteración ha sido modularizar la interfaz en comp
 
 ## 3. Publicación y Despliegue en Producción
 
-* **Repositorio Oficial GitHub (TP2):** [https://github.com/cuartocuatrimestre2026-oss/TP2-FRONTEND-DATAHELL](https://github.com/cuartocuatrimestre2026-oss/TP2-FRONTEND-DATAHELL)
-* **URL en Producción (Vercel):** [https://tp2-frontend-datahell.vercel.app/](https://tp2-frontend-datahell.vercel.app/)
+* **URL en Producción (Vercel):** [https://]
 
 *Nota de despliegue y rewrites:* Se ha configurado el archivo `vercel.json` en la raíz con reglas de reescritura (`"source": "/(.*)", "destination": "/index.html"`) para garantizar que la navegación nativa de React Router funcione correctamente al abrir y recargar directamente cualquier ruta interna (`/stack`, `/bitacora`, `/arbol`, `/perfil/:id`) sin arrojar errores 404 en el servidor de producción.
 
@@ -181,8 +180,8 @@ El equipo ejerció la autoría, diseño de experiencia de usuario (UX/UI), arqui
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone https://github.com/cuartocuatrimestre2026-oss/TP2-FRONTEND-DATAHELL.git
-   cd TP2-FRONTEND-DATAHELL
+   git clone 
+   cd 
    ```
 2. **Instalar dependencias:**
    ```bash
